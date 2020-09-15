@@ -1,0 +1,105 @@
+.header {
+  width: 100%;
+  height: 500rpx;
+  background-color: #D8006F;
+}
+
+.menu_div {
+  width: 100%;
+  height: 180rpx;
+  position: absolute;
+  border: 0rpx solid black;
+  z-index: 100;
+}
+
+.menu_maxdiv {
+  width: 95%;
+  height: 100%;
+  margin: auto;
+}
+
+.subnav_div {
+  height: 100%;
+  width: 48%;
+  border-radius: 10rpx;
+  background-color: #760A1F;
+  float: left;
+}
+
+.main {
+  padding-top: 100rpx;
+  width: 100%;
+  padding-bottom: 80rpx;
+  border: 0rpx solid black;
+}
+
+.main_maxdiv {
+  height: 300rpx;
+  width: 95%;
+  margin: auto;
+  border-radius: 10rpx;
+  background-color: white;
+  border: 0rpx solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.main_div {
+  height: 85%;
+  width: 92%;
+  border: 2rpx solid black;
+}
+
+.main_imgdiv {
+  width: 40%;
+  height: 100%;
+  border-radius: 10rpx;
+  float: left;
+  background-color: #FCD629;
+}
+
+.main_nrdiv {
+  width: 56%;
+  height: 100%;
+  float: right;
+  border: 2rpx solid red;
+}
+
+.main_nr_head {
+  width: 100%;
+  line-height: 40rpx;
+  font-weight: 700;
+  font-size: 26rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  text-align: left;
+}
+
+.main_nr_tips{
+  width: 100%;
+
+}
+
+.zbsj_div {
+  width: 30%;
+  background-color: #FD5B35;
+  text-align: center;
+  color: white;
+  border-radius: 4rpx;
+  line-height: 44rpx;
+  float: left;
+}
+
+.main_gg_div{
+  width: 100%;
+  margin-top: 10rpx;
+  border: 0rpx solid red;
+  line-height: 30rpx;
+  font-size: 22rpx;
+  color: #969799;
+}

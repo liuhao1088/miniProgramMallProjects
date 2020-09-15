@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "van-icon": "/miniprogram_npm/vant-weapp/icon/index"
+  },
+  "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FEFEFE",
+    "navigationBarTitleText": "我的",
+    "navigationBarTextStyle":"black"
+}

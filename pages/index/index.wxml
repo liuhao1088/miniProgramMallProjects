@@ -1,0 +1,349 @@
+<view class="container">
+  <view class="header_maxdiv">
+    <view class="header">
+      <view class="header_fl">
+        <van-icon name="bars" color="white" size="26px" style="margin-top: 10rpx;" />
+        分类
+      </view>
+      <view class="header_search">
+        <view class="header_search_icon">
+          <van-icon name="search" color="#a7aab5" size="18px" />
+        </view>
+        <view class="header_search_input">
+          <input placeholder-class="placeholder" placeholder="搜索朋友圈的好货" />
+        </view>
+      </view>
+
+      <view class="header_news">
+        <van-icon name="chat-o" color="white" size="26px" style="margin-top: 10rpx;" />
+        消息
+      </view>
+
+    </view>
+
+    <view class="head"></view>
+
+    <view class="content">
+      <view class="content_nrdiv">人工优选</view>
+      <view class="content_nrdiv">品质担保</view>
+      <view class="content_nrdiv">售后无忧</view>
+    </view>
+
+    <view class="lbt_div">
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+        easing-function="easeInOutCubic" indicator-active-color="#FF4444" indicator-color="#FEE899"
+        style="height:300rpx;border-radius: 20rpx;">
+        <swiper-item>
+          <image src="https://i.loli.net/2020/09/08/wpj9ChrWl3VcbJO.jpg" class="slide-image" />
+        </swiper-item>
+
+        <swiper-item>
+          <image src="https://i.loli.net/2020/09/08/UApIuz5mBCoQWHe.jpg" class="slide-image" />
+        </swiper-item>
+
+        <swiper-item>
+          <image src="https://i.loli.net/2020/09/08/4VWd9RBxZCzTY3p.jpg" class="slide-image" />
+        </swiper-item>
+      </swiper>
+    </view>
+
+    <view class="content2">
+      <view class="mssx">
+        <view class="mssx_maxdiv">
+          <view class="mssx_img"></view>
+          <view class="mssx_nr">美食生鲜</view>
+        </view>
+      </view>
+
+      <view class="mssx">
+        <view class="mssx_maxdiv">
+          <view class="mssx_img" style="background-color:#C47EEC"></view>
+          <view class="mssx_nr">美容个护</view>
+        </view>
+      </view>
+
+      <view class="mssx">
+        <view class="mssx_maxdiv">
+          <view class="mssx_img" style="background-color:#80CF89"></view>
+          <view class="mssx_nr">居家好物</view>
+        </view>
+      </view>
+
+      <view class="mssx">
+        <view class="mssx_maxdiv">
+          <view class="mssx_img" style="background-color:#F58790"></view>
+          <view class="mssx_nr">潮人穿搭</view>
+        </view>
+      </view>
+
+      <view class="mssx">
+        <view class="mssx_maxdiv">
+          <view class="mssx_img" style="background-color:#5A5751"></view>
+          <view class="mssx_nr">精选会员</view>
+        </view>
+      </view>
+
+    </view>
+
+  </view>
+
+  <view class="branding"></view>
+
+  <view class="jrbp">
+    <view class="jrbp_nr">今日比拼</view>
+    <view class="jrbp_pt">
+      <view class="jrbp_img"></view>
+      <view class="jrbp_shu"></view>
+      <view class="jrbp_pryh">刘**刚拼团成功</view>
+    </view>
+    <view class="jrbp_gd">
+      <view class="jrbp_gd_icon">
+        <van-icon name="arrow" color="#ABABAB" size="12px" style="margin-top: 14rpx;" />
+      </view>
+      <view class="jrbp_gd_nr">更多超值团</view>
+
+    </view>
+  </view>
+
+  <view class="content_jrbp">
+    <view class="content_jrbp_nrdiv">
+      <view class="nrdiv">
+        <view class="nrdiv_img"></view>
+        <view class="nrdiv_js">【好想你_美丽方218g】新疆特产核桃夹心枣枣仁派休闲零食果干</view>
+        <view class="nrdiv_jgdiv">
+          <view class="nrdiv_tagdiv">
+            <view class="tag">￥</view>
+            <view class="num">19.9</view>
+          </view>
+          <view class="nrdiv_jgdiv2">￥39.8</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="content_jrbp_nrdiv">
+      <view class="nrdiv">
+        <view class="nrdiv_img" style="background-color:#FCC648"></view>
+        <view class="nrdiv_js">OBERA比比赞松塔千层酥240g饼干整箱办公室代餐夜宵充饥休闲零食</view>
+        <view class="nrdiv_jgdiv">
+          <view class="nrdiv_tagdiv">
+            <view class="tag">￥</view>
+            <view class="num">19.9</view>
+          </view>
+          <view class="nrdiv_jgdiv2">￥39.8</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="content_jrbp_nrdiv">
+      <view class="nrdiv">
+        <view class="nrdiv_img" style="background-color:#E2F39F"></view>
+        <view class="nrdiv_js">藤壶岛芝麻夹心海苔脆40g罐装即食紫菜海苔儿童宝宝孕妇小吃零食</view>
+        <view class="nrdiv_jgdiv">
+          <view class="nrdiv_tagdiv">
+            <view class="tag">￥</view>
+            <view class="num">19.9</view>
+          </view>
+          <view class="nrdiv_jgdiv2">￥39.8</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="jtxx">
+    <view class="jtxx_nr">精挑细选</view>
+    <view class="jtxx_nr2">人工优选好物</view>
+  </view>
+
+  <view class="main">
+    <view class="main_wrap">
+      <view class="main_div">
+        <view class="main_maxdiv">
+
+          <view class="main_img"></view>
+
+          <view class="main_nrdiv">
+            <view class="main_titel">俄罗斯进口北极甜虾大号刺身即食腹耔日料超特大级60-63只1kg包邮</view>
+            <view class="main_tagdiv">
+              <view class="main_tag">1000kg</view>
+            </view>
+            <view class="main_jgdiv">
+              <view class="main_tag2">￥</view>
+              <view class="main_num">49</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="main_div">
+        <view class="main_maxdiv">
+          <view class="main_img" style="background-color:#FB5182"></view>
+          <view class="main_nrdiv">
+            <view class="main_titel">越南进口白心火龙果 4个装 白肉中果 单果375-500g 新鲜水</view>
+            <view class="main_tagdiv">
+              <view class="main_tag">红心中果原想套装</view>
+            </view>
+            <view class="main_jgdiv">
+              <view class="main_tag2">￥</view>
+              <view class="main_num">119.90</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="main_div">
+        <view class="main_maxdiv">
+          <view class="main_img" style="background-color:#F08E5F"></view>
+          <view class="main_nrdiv">
+            <view class="main_titel">美威 智利原味三文鱼排（大西洋鲑）240g/袋 4片 含Ω3 BAP认证 生鲜 海鲜水产</view>
+            <view class="main_tagdiv">
+              <view class="main_tag">品牌热卖</view>
+            </view>
+            <view class="main_jgdiv">
+              <view class="main_tag2">￥</view>
+              <view class="main_num">39.90</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="summary">
+        <view class="summary_div">
+          <view class="summary_img">
+            <view class="summary_title">榜单推荐</view>
+          </view>
+          <view class="summary_nr">桥墩月饼薄而酥脆，馅料丰富！</view>
+          <view class="summary_footer">
+            <view class="summary_tag"></view>
+            <view class="summary_tag_nr">禾春元生态食品</view>
+            <view class="summary_numdiv">
+              <view class="summary_num">75</view>
+              <view class="summary_num" style="margin-right: 10rpx;margin-top: 4rpx;">
+                <van-icon name="fire" />
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="pyq_recommend">
+      <view class="pyq_recommend_div">
+        <view class="div_tag1"></view>
+        <view class="div_nr">朋友圈的好货推荐</view>
+        <view class="div_tag1" style=" margin-left: 40rpx"></view>
+      </view>
+    </view>
+
+    <view class="column">
+      <view class="column_div">
+        <view class="column_imgdiv"></view>
+        <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+        <view class="column_jgdiv">
+          <view class="column_jg">
+            <view class="nrdiv_tagdiv" style="margin-left:0rpx;">
+              <view class="tag" style="font-weight: 700;">￥</view>
+              <view class="num" style="margin-left:0rpx">129</view>
+            </view>
+          </view>
+          <view class="column_xsdiv">3340已售</view>
+        </view>
+      </view>
+
+      <view class="column_div" style="margin-left:10rpx">
+        <view class="column_imgdiv" style="background-color:#FC551B"></view>
+        <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+        <view class="column_jgdiv">
+          <view class="column_jg">
+            <view class="nrdiv_tagdiv" style="margin-left:0rpx;">
+              <view class="tag" style="font-weight: 700;">￥</view>
+              <view class="num" style="margin-left:0rpx">129</view>
+            </view>
+          </view>
+          <view class="column_xsdiv">3340已售</view>
+        </view>
+      </view>
+    </view>
+
+
+    <view class="column">
+      <view class="column_div">
+        <view class="column_imgdiv" style="background-color:#E39D91"></view>
+        <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+        <view class="column_jgdiv">
+          <view class="column_jg">
+            <view class="nrdiv_tagdiv" style="margin-left:0rpx;">
+              <view class="tag" style="font-weight: 700;">￥</view>
+              <view class="num" style="margin-left:0rpx">129</view>
+            </view>
+          </view>
+          <view class="column_xsdiv">3340已售</view>
+        </view>
+      </view>
+
+      <view class="column_div" style="margin-left:10rpx">
+        <view class="column_imgdiv" style="background-color:#F3C041"></view>
+        <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+        <view class="column_jgdiv">
+          <view class="column_jg">
+            <view class="nrdiv_tagdiv" style="margin-left:0rpx;">
+              <view class="tag" style="font-weight: 700;">￥</view>
+              <view class="num" style="margin-left:0rpx">129</view>
+            </view>
+          </view>
+          <view class="column_xsdiv">3340已售</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <!--底部  -->
+  <!-- <view class="footer">
+    <view class="footer_tag">
+      <view class="footer_div">
+        <view class="footer_icon">
+          <van-icon name="thumb-circle" color="#FF4444" size="24px" />
+        </view>
+
+        <view class="footer_nr">精选</view>
+      </view>
+    </view>
+
+    <view class="footer_tag" bindtap="butiedj">
+      <view class="footer_div">
+        <view class="footer_icon">
+          <van-icon name="gold-coin-o" color="#ABABAB" size="24px" />
+        </view>
+
+        <view class="footer_nr" style="color:#ABABAB">补贴神价</view>
+      </view>
+    </view>
+
+    <view class="footer_tag">
+      <view class="footer_div">
+        <view class="footer_icon">
+          <van-icon name="shopping-cart-o" color="#ABABAB" size="24px" />
+        </view>
+
+        <view class="footer_nr" style="color:#ABABAB">购物车</view>
+      </view>
+    </view>
+
+    <view class="footer_tag" bindtap="wodedj">
+      <view class="footer_div">
+        <view class="footer_icon">
+          <van-icon name="contact" color="#ABABAB" size="24px" />
+        </view>
+
+        <view class="footer_nr" style="color:#ABABAB">我的</view>
+      </view>
+    </view>
+
+
+
+  </view> -->
+
+  <view class="return" style="display: {{display}};" bindtap="goToTop">
+    <van-icon name="arrow-up" />
+  </view>
+
+</view>

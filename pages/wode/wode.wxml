@@ -1,0 +1,248 @@
+<view class="container">
+  <view class="header_maxdiv">
+    <view class="content">
+      <view class="content_imgdiv"></view>
+      <view class="content_namediv">客户fsafasdfasdfsfsafsdfasfasdf</view>
+      <view class="content_news">
+        <van-icon name="chat-o" />
+      </view>
+    </view>
+  </view>
+
+  <view class="vip_div">
+    <view class="vip_maxdiv">
+      <view class="jxhy_div">
+        <view class="card_div">
+          <van-icon name="vip-card" />
+        </view>
+        <view class="jxhy_nr">精选会员</view>
+      </view>
+
+      <view class="jxhy_div2">优选好货低至7折，任你选</view>
+    </view>
+
+    <view class="ktxtq_div">
+      <view class="ktxtq_nr">开通享特权</view>
+      <view class="ktxtq_iocn">
+        <van-icon name="arrow" />
+      </view>
+    </view>
+
+
+  </view>
+
+  <view class="order_div">
+    <view class="wdorder_div">
+      <view class="wdorder_nr">我的订单</view>
+      <view class="all_orders_div">
+        <view class="all_orders_iocn">
+          <van-icon name="arrow" />
+        </view>
+        <view class="all_orders">全部订单</view>
+      </view>
+    </view>
+
+    <view class="status_div">
+      <view class="orders_status">
+        <view class="status">
+          <view class="status_iocn">
+            <van-icon name="pending-payment" />
+          </view>
+          <view class="status_title">待付款</view>
+        </view>
+      </view>
+
+      <view class="orders_status">
+        <view class="status">
+          <view class="status_iocn">
+            <van-icon name="send-gift-o" />
+          </view>
+          <view class="status_title">待发货</view>
+        </view>
+      </view>
+
+      <view class="orders_status">
+        <view class="status">
+          <view class="status_iocn">
+            <van-icon name="logistics" />
+          </view>
+          <view class="status_title">待收货</view>
+        </view>
+      </view>
+
+      <view class="orders_status">
+        <view class="status">
+          <view class="status_iocn">
+            <van-icon name="comment-o" />
+          </view>
+          <view class="status_title">待评价</view>
+        </view>
+      </view>
+
+      <view class="orders_status">
+        <view class="status">
+          <view class="status_iocn">
+            <van-icon name="refund-o" />
+          </view>
+          <view class="status_title">退款/售后</view>
+        </view>
+      </view>
+
+
+
+    </view>
+  </view>
+
+  <view class="order_div">
+    <view class="wdorder_div">
+      <view class="wdorder_nr">我的钱包</view>
+    </view>
+    <view class="status_div">
+      <view class="orders_status2">
+        <view class="status">
+          <view class="status_iocn" style="color: #646566; font-size: 32rpx;">
+            0
+          </view>
+          <view class="status_title">优惠券</view>
+        </view>
+      </view>
+
+      <view class="orders_status2">
+        <view class="status">
+          <view class="status_iocn" style="color: #646566; font-size: 32rpx;">
+            0.00
+          </view>
+          <view class="status_title">补贴奖励(元)</view>
+        </view>
+      </view>
+
+      <view class="orders_status2">
+        <view class="status">
+          <view class="status_iocn" style="color: #646566; font-size: 32rpx;">
+            0.00
+          </view>
+          <view class="status_title">零钱(元)</view>
+        </view>
+      </view>
+
+      <view class="orders_status2">
+        <view class="status">
+          <view class="status_iocn" style="color: #646566; font-size: 32rpx;">
+            20万
+          </view>
+          <view class="status_title">分期支付</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+  <view class="order_div">
+    <view class="wdorder_div">
+      <view class="wdorder_nr">我的工具</view>
+    </view>
+    <view class="status_div">
+      <view class="orders_status2">
+        <view class="status">
+          <view class="status_iocn" style="color: #FF6153;">
+            <van-icon name="like" />
+          </view>
+          <view class="status_title">喜欢</view>
+        </view>
+      </view>
+
+      <view class="orders_status2">
+        <view class="status">
+          <view class="status_iocn" style="color: #46C65B;">
+            <van-icon name="location" />
+          </view>
+          <view class="status_title">收货地址</view>
+        </view>
+      </view>
+
+      <view class="orders_status2">
+        <view class="status">
+          <view class="status_iocn" style="color: #FE8040;">
+            <van-icon name="service" />
+          </view>
+          <view class="status_title">客服</view>
+        </view>
+      </view>
+
+      <view class="orders_status2">
+        <view class="status">
+          <view class="status_iocn" style="color: #54BBFF;">
+            <van-icon name="shop" />
+          </view>
+          <view class="status_title">我要开店</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="cnxh_div">猜你喜欢</view>
+
+  <view class="main">
+    <view class="column">
+      <view class="column_div">
+        <view class="column_imgdiv" style="background-color:#E39D91"></view>
+        <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+        <view class="column_jgdiv">
+          <view class="column_jg">
+            <view class="nrdiv_tagdiv" style="margin-left:0rpx;">
+              <view class="tag" style="font-weight: 700;">￥</view>
+              <view class="num" style="margin-left:0rpx">129</view>
+            </view>
+          </view>
+          <view class="column_xsdiv">3340已售</view>
+        </view>
+      </view>
+
+      <view class="column_div" style="margin-left:10rpx">
+        <view class="column_imgdiv" style="background-color:#F3C041"></view>
+        <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+        <view class="column_jgdiv">
+          <view class="column_jg">
+            <view class="nrdiv_tagdiv" style="margin-left:0rpx;">
+              <view class="tag" style="font-weight: 700;">￥</view>
+              <view class="num" style="margin-left:0rpx">129</view>
+            </view>
+          </view>
+          <view class="column_xsdiv">3340已售</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="column">
+      <view class="column_div">
+        <view class="column_imgdiv" style="background-color:#E39D91"></view>
+        <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+        <view class="column_jgdiv">
+          <view class="column_jg">
+            <view class="nrdiv_tagdiv" style="margin-left:0rpx;">
+              <view class="tag" style="font-weight: 700;">￥</view>
+              <view class="num" style="margin-left:0rpx">129</view>
+            </view>
+          </view>
+          <view class="column_xsdiv">3340已售</view>
+        </view>
+      </view>
+
+      <view class="column_div" style="margin-left:10rpx">
+        <view class="column_imgdiv" style="background-color:#F3C041"></view>
+        <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+        <view class="column_jgdiv">
+          <view class="column_jg">
+            <view class="nrdiv_tagdiv" style="margin-left:0rpx;">
+              <view class="tag" style="font-weight: 700;">￥</view>
+              <view class="num" style="margin-left:0rpx">129</view>
+            </view>
+          </view>
+          <view class="column_xsdiv">3340已售</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+</view>

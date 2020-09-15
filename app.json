@@ -1,0 +1,44 @@
+{
+  "pages":[
+    "pages/butie/butie",
+    "pages/wode/wode",
+    "pages/index/index"
+   
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#db4367",
+    "navigationBarTitleText": "商城",
+    "navigationBarTextStyle":"white"
+  },
+  
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#ABABAB",
+    "selectedColor": "#FF4444",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "精选"
+       
+      },
+      {
+        "pagePath": "pages/butie/butie",
+        "text": "补贴神价"
+       
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "购物车"
+       
+      },
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的"
+        
+      }
+    ]
+  }
+}
