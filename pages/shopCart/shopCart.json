@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-checkbox": "/miniprogram_npm/vant-weapp/checkbox/index",
+    "van-checkbox-group": "/miniprogram_npm/vant-weapp/checkbox-group/index"
+  },
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "购物车",
+  "navigationBarTextStyle": "black"
+}

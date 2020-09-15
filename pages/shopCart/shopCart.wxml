@@ -1,0 +1,21 @@
+<view class="container">
+  <view class="header">微信小程序搜索“商城”可查看更多订单</view>
+</view>
+
+<view class="toolbar_div">
+  <view class="selectall">
+    <van-checkbox value="{{ checked }}" checked-color="#FF4444" bind:change="onChange">
+      全选
+    </van-checkbox>
+  </view>
+
+  <view class="settlement">结算(0)</view>
+  <view class="total_div">
+    <view class="total">
+      <view class="total_nr" style="color:#FF4444;">￥0</view>
+      <view class="total_nr">合计：</view>
+
+    </view>
+    <view class="prompt">(不含运费和优惠)</view>
+  </view>
+</view>

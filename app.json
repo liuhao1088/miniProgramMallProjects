@@ -1,9 +1,9 @@
 {
   "pages":[
-    "pages/butie/butie",
+    "pages/shopCart/shopCart",
+    "pages/index/index",
     "pages/wode/wode",
-    "pages/index/index"
-   
+    "pages/butie/butie"
     
   ],
   "window":{
@@ -30,7 +30,7 @@
        
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/shopCart/shopCart",
         "text": "购物车"
        
       },

@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-indent: 2em;
+  background-color: white;
+  font-size: 24rpx;
+}
+
+/* 结算 */
+.toolbar_div {
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  bottom: 6rpx;
+  border: 0rpx solid black;
+  background-color: white;
+}
+
+.selectall {
+  height: 100%;
+  border: 0rpx solid red;
+  float: left;
+  margin-left: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settlement {
+  height: 100%;
+  width: 30%;
+  background-color: #F8F8F8;
+  border: 1rpx solid #EEEEEE;
+  float: right;
+  line-height: 100rpx;
+  font-size: 26ropx;
+  text-align: center;
+  color: #999999;
+}
+
+.total_div{
+  height: 100%;
+  border: 0rpx solid red;
+  float: right;
+  margin-right: 20rpx;
+}
+
+.total{
+  width: 100%;
+  border: 0rpx solid black;
+  float: right;
+}
+
+.total_nr{
+  height: 100%;
+  float: right;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  font-weight: 700;
+}
+
+.prompt{
+  height: 30%;
+  font-size: 20rpx;
+  text-align: center;
+  color: #999999;
+  float: right;
+  margin-right: 12rpx;
+}
