@@ -1,0 +1,2 @@
+# miniProgramMallProjects
+Applets
