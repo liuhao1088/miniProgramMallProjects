@@ -8,18 +8,107 @@
           <view class="main_nr_head">
             <view class="main_nr_tips">
               <view class="zbsj_div">直播神价</view>
-            【二手9成新】苹果XR 手机 Apple iPhone X xr 国行全网通 二手手机 双卡双待 黑色 128G 全网通
+              【二手9成新】苹果XR 手机 Apple iPhone X xr 国行全网通 二手手机 双卡双待 黑色 128G 全网通
             </view>
-            
+
           </view>
 
           <view class="main_gg_div">工厂直发9.9元秒杀|爆买10w+</view>
 
+          <view class="main_zbjdiv">直播价￥9.90</view>
+          <view class="main_bjtdiv">
+            <view class="btj_div">补贴价</view>
+            <view class="tag">￥</view>
+            <view class="num">19.9</view>
+            <view class="yb_div">已补￥0.89</view>
+          </view>
 
 
         </view>
       </view>
     </view>
+
+    <view class="main_maxdiv">
+      <view class="main_div">
+        <view class="main_imgdiv"></view>
+        <view class="main_nrdiv">
+          <view class="main_nr_head">
+            <view class="main_nr_tips">
+              <view class="zbsj_div">直播神价</view>
+              【二手9成新】苹果XR 手机 Apple iPhone X xr 国行全网通 二手手机 双卡双待 黑色 128G 全网通
+            </view>
+
+          </view>
+
+          <view class="main_gg_div">工厂直发9.9元秒杀|爆买10w+</view>
+
+          <view class="main_zbjdiv">直播价￥9.90</view>
+          <view class="main_bjtdiv">
+            <view class="btj_div">补贴价</view>
+            <view class="tag">￥</view>
+            <view class="num">19.9</view>
+            <view class="yb_div">已补￥0.89</view>
+          </view>
+
+
+        </view>
+      </view>
+    </view>
+
+    <view class="main_maxdiv">
+      <view class="main_div">
+        <view class="main_imgdiv"></view>
+        <view class="main_nrdiv">
+          <view class="main_nr_head">
+            <view class="main_nr_tips">
+              <view class="zbsj_div">直播神价</view>
+              【二手9成新】苹果XR 手机 Apple iPhone X xr 国行全网通 二手手机 双卡双待 黑色 128G 全网通
+            </view>
+
+          </view>
+
+          <view class="main_gg_div">工厂直发9.9元秒杀|爆买10w+</view>
+
+          <view class="main_zbjdiv">直播价￥9.90</view>
+          <view class="main_bjtdiv">
+            <view class="btj_div">补贴价</view>
+            <view class="tag">￥</view>
+            <view class="num">19.9</view>
+            <view class="yb_div">已补￥0.89</view>
+          </view>
+
+
+        </view>
+      </view>
+    </view>
+
+    <view class="main_maxdiv">
+      <view class="main_div">
+        <view class="main_imgdiv"></view>
+        <view class="main_nrdiv">
+          <view class="main_nr_head">
+            <view class="main_nr_tips">
+              <view class="zbsj_div">直播神价</view>
+              【二手9成新】苹果XR 手机 Apple iPhone X xr 国行全网通 二手手机 双卡双待 黑色 128G 全网通
+            </view>
+
+          </view>
+
+          <view class="main_gg_div">工厂直发9.9元秒杀|爆买10w+</view>
+
+          <view class="main_zbjdiv">直播价￥9.90</view>
+          <view class="main_bjtdiv">
+            <view class="btj_div">补贴价</view>
+            <view class="tag">￥</view>
+            <view class="num">19.9</view>
+            <view class="yb_div">已补￥0.89</view>
+          </view>
+
+
+        </view>
+      </view>
+    </view>
+
   </view>
 </view>
 
@@ -29,4 +118,14 @@
     <view class="subnav_div" style="float: right;"></view>
   </view>
 
+</view>
+
+
+<view class="header_search" style="top:{{searchTop}};">
+  <view class="header_search_icon">
+    <van-icon name="search" color="#a7aab5" size="18px" />
+  </view>
+  <view class="header_search_input">
+    <input placeholder-class="placeholder" placeholder="搜更多省更多" />
+  </view>
 </view>

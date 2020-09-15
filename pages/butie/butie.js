@@ -5,7 +5,9 @@ Page({
    * 页面的初始数据
    */
   data: {
-    top:"32%"
+    top:"32%",
+    searchTop:"4%"
+
   },
 
   /**
@@ -16,11 +18,13 @@ Page({
     console.log(windowHeight);
     if(windowHeight>700){
       this.setData({
-        top: "28%"
+        top: "28%",
+        searchTop:"6%"
       })
     }else{
       this.setData({
-        top: "32%"
+        top: "32%",
+        searchTop:"4%"
       })
     }
   },

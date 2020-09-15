@@ -29,7 +29,7 @@
 .main {
   padding-top: 100rpx;
   width: 100%;
-  padding-bottom: 80rpx;
+  padding-bottom: 60rpx;
   border: 0rpx solid black;
 }
 
@@ -43,13 +43,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20rpx;
 
 }
 
 .main_div {
   height: 85%;
   width: 92%;
-  border: 2rpx solid black;
+  border: 0rpx solid black;
 }
 
 .main_imgdiv {
@@ -64,7 +65,7 @@
   width: 56%;
   height: 100%;
   float: right;
-  border: 2rpx solid red;
+  border: 0rpx solid red;
 }
 
 .main_nr_head {
@@ -102,4 +103,113 @@
   line-height: 30rpx;
   font-size: 22rpx;
   color: #969799;
+}
+
+.main_zbjdiv{
+  width: 100%;
+  color: #969799;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  margin-top: 25%;
+}
+
+.main_bjtdiv{
+  width: 100%;
+  height: 50rpx;
+  border: 0rpx solid red;
+  color: #FF4444; 
+}
+
+.main_jgdiv{
+  height: 100%;
+  float: left;
+}
+
+.tag {
+  float: left;
+  border: 0rpx solid gold;
+  font-weight: 600;
+  text-align: center;
+  line-height: 70rpx;
+  font-size: 26rpx;
+}
+
+.num {
+  float: left;
+  font-weight: 700;
+  text-align: center;
+  line-height: 64rpx;
+  margin-left: 4rpx;
+  font-size: 36rpx;
+}
+
+.btj_div{
+  height: 100%;
+  float: left;
+  line-height: 70rpx;
+  font-size: 26rpx;
+  font-weight: 700;
+}
+
+.yb_div{
+  height: 100%;
+  float: right;
+  font-size: 26rpx;
+  color: #B3B4B6;
+  line-height: 70rpx;
+}
+
+/* 搜索框 */
+
+.header_search {
+  width: 60%;
+  height: 60rpx;
+  border: 2rpx white solid;
+  border-radius: 50rpx;
+  margin-top: 6rpx;
+  background-color: white;
+  opacity: 0.6;
+  position: absolute;
+  top: 4%;
+  left: 4%;
+}
+
+.header_news {
+  height: 100%;
+  width: 8%;
+  border: 0rpx white solid;
+  float: right;
+  margin-right: 20rpx;
+  text-align: center;
+  color: white;
+  font-size: 16rpx;
+  line-height: 16rpx;
+}
+
+.header_search_icon {
+  height: 100%;
+  border: 0rpx black solid;
+  float: left;
+  margin-left: 20rpx;
+  text-align: center;
+  line-height: 70rpx;
+}
+
+.header_search_input {
+  height: 80%;
+  width: 76%;
+  border: 0rpx black solid;
+  float: left;
+  margin-left: 16rpx;
+  margin-top: 6rpx;
+}
+
+.header_search_input input {
+  height: 100%;
+  width: 100%;
+}
+
+.placeholder {
+  color: #999;
+  font-size: 26rpx;
 }
