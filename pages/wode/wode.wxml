@@ -9,7 +9,7 @@
     </view>
   </view>
 
-  <view class="vip_div">
+  <view class="vip_div" bindtap="vipCentre">
     <view class="vip_maxdiv">
       <view class="jxhy_div">
         <view class="card_div">

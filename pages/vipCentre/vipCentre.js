@@ -1,4 +1,4 @@
-// pages/wode/wode.js
+// pages/vipCentre/vipCentre.js
 Page({
 
   /**
@@ -6,11 +6,6 @@ Page({
    */
   data: {
 
-  },
-  vipCentre:function(){
-    wx.navigateTo({
-      url: '../vipCentre/vipCentre'
-    })
   },
 
   /**

@@ -1,0 +1,174 @@
+.mian_div {
+  width: 100%;
+  height: 600rpx;
+  background-color: black;
+}
+
+.jxhy_div {
+  width: 95%;
+  height: 260rpx;
+  background-color: #494845;
+  margin: auto;
+  margin-top: 20rpx;
+  border-radius: 10rpx;
+}
+
+.jxhy {
+  width: 100%;
+  height: 50rpx;
+  line-height: 50rpx;
+  border: 0rpx solid red;
+  float: left;
+  margin-top: 40rpx;
+}
+
+.jxhy_iocn {
+  height: 100%;
+  width: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 50rpx;
+  color: #E4CDA1;
+  float: left;
+  margin-left: 30rpx;
+}
+
+.jxhy_nr {
+  height: 100%;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 34rpx;
+  color: #E4CDA1;
+  float: left;
+  margin-left: 10rpx;
+}
+
+.jxhy_jgdiv {
+  width: 50%;
+  margin-left: 30rpx;
+  float: left;
+  line-height: 30rpx;
+  font-size: 24rpx;
+  color: white;
+  margin-top: 10rpx;
+}
+
+.jxhy_rulediv {
+  width: 50%;
+  height: 50rpx;
+  margin-left: 30rpx;
+  margin-top: 50rpx;
+  float: left;
+  border: 0rpx solid red;
+}
+
+.rule_nr {
+  height: 100%;
+  line-height: 50rpx;
+  float: left;
+  color: #979080;
+  font-size: 26rpx;
+}
+
+.rule_iocn {
+  height: 100%;
+  line-height: 56rpx;
+  font-size: 30rpx;
+  color: #979080;
+  float: left;
+  margin-left: 10rpx;
+}
+
+.jxhy_opendiv {
+  height: 50rpx;
+  float: right;
+  width: 180rpx;
+  background-color: #E0C898;
+  color: black;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 30rpx;
+  border-radius: 50rpx;
+  margin-right: 40rpx;
+  margin-top: 50rpx;
+}
+
+.jhzx_div{
+  width: 95%;
+  height: 100rpx;
+  padding-top: 20rpx;
+  border: 0rpx solid red;
+  margin: auto;
+}
+
+.jhzx_nr{
+  height: 100%;
+  line-height: 100rpx;
+  font-size: 40rpx;
+  color: white;
+  font-weight: 700;
+  float: left;
+}
+
+.jhzx_js{
+  height: 100%;
+  line-height: 100rpx;
+  font-size: 24rpx;
+  color: white;
+  float: left;
+  margin-left: 20rpx;
+}
+
+.mian_productdiv{
+  width: 100%;
+  height: 500rpx;
+  border: 0rpx solid red;
+  margin-top: 10rpx;
+}
+
+.product_maxdiv{
+  width: 95%;
+  height: 100%;
+  margin: auto;
+  border: 0rpx solid red;
+  
+}
+
+view .van-tabs__wrap{
+  background-color: black;
+}
+
+.tabs{
+  background-color: black;
+}
+
+
+
+view .van-tabs__line{
+  width: 40rpx!important;
+  left: 14rpx;
+  background-color: #DEC592;
+  
+}
+
+view .van-hairline--top-bottom:after{
+      border-width: 0;
+}
+
+view .van-tab--active{
+  font-weight: 600;
+}
+
+view .van-tab{
+  font-size: 32rpx;
+}
+
+.product_div{
+  width: 95%;
+  height: 10000rpx;
+  border: 2rpx solid red;
+  margin: auto;
+  margin-top: 30rpx;
+}
+
+

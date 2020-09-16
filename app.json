@@ -1,9 +1,11 @@
 {
   "pages":[
-    "pages/shopCart/shopCart",
-    "pages/index/index",
+    "pages/vipCentre/vipCentre",
     "pages/wode/wode",
+    "pages/index/index",
+    "pages/shopCart/shopCart",
     "pages/butie/butie"
+    
     
   ],
   "window":{
