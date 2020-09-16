@@ -7,6 +7,131 @@
   font-size: 24rpx;
 }
 
+.main_maxdiv {
+  width: 95%;
+  height: 300rpx;
+  border-radius: 10rpx;
+  margin: auto;
+  margin-top: 40rpx;
+  background-color: white;
+  border: 0rpx solid black;
+}
+
+.shop_div {
+  height: 50rpx;
+  width: 100%;
+  border: 0rpx solid red;
+  margin-top: 20rpx;
+}
+
+.shop_select {
+  height: 100%;
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10rpx;
+  float: left;
+}
+
+
+.shop_maxdiv {
+  height: 100%;
+  border: 0rpx solid black;
+  float: left;
+  margin-left: 10rpx;
+}
+
+.shop_icondiv {
+  height: 100%;
+  line-height: 54rpx;
+  font-size: 34rpx;
+  text-align: center;
+  float: left;
+}
+
+.shop_nr {
+  height: 100%;
+  line-height: 46rpx;
+  float: left;
+  margin-left: 20rpx;
+  font-size: 26rpx;
+}
+
+.shop_arrow {
+  height: 100%;
+  line-height: 54rpx;
+  float: left;
+  margin-left: 20rpx;
+  font-size: 26rpx;
+}
+
+.shop_nrdiv {
+  width: 100%;
+  height: 55%;
+  border: 0rpx solid red;
+  margin-top: 20rpx;
+}
+
+.shop_imgdiv {
+  height: 100%;
+  width: 180rpx;
+  background-color: #CFCAC8;
+  float: left;
+  margin-left: 10rpx;
+}
+
+.commodity_nrdiv {
+  height: 100%;
+  width: 60%;
+  float: right;
+  border: 0rpx solid black;
+}
+
+.commodity_nr {
+  font-weight: 600;
+  font-size: 24rpx;
+  line-height: 30rpx;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.specification{
+  width: 100%;
+  float: left;
+  font-size: 20rpx;
+  line-height: 20rpx;
+  margin-top: 10rpx;
+  color: #B1B1B1;
+}
+
+.price{
+  float: left;
+  font-size: 20rpx;
+  line-height: 20rpx;
+  margin-top: 10rpx;
+  color: #FF4444;
+  margin-top: 40rpx;
+}
+
+.num_div{
+  float: right;
+  height: 50rpx;
+  border: 0rpx solid red;
+  margin-top: 20rpx;
+}
+
+.stepper{
+  border: 1rpx solid #E1E1E1;
+}
+
+
+
+
 /* 结算 */
 .toolbar_div {
   width: 100%;
@@ -37,22 +162,19 @@
   font-size: 26ropx;
   text-align: center;
   color: #999999;
+ 
 }
 
-.total_div{
+.total_div {
   height: 100%;
   border: 0rpx solid red;
   float: right;
   margin-right: 20rpx;
 }
 
-.total{
-  width: 100%;
-  border: 0rpx solid black;
-  float: right;
-}
 
-.total_nr{
+
+.total_nr {
   height: 100%;
   float: right;
   line-height: 60rpx;
@@ -60,8 +182,7 @@
   font-weight: 700;
 }
 
-.prompt{
-  height: 30%;
+.prompt {
   font-size: 20rpx;
   text-align: center;
   color: #999999;

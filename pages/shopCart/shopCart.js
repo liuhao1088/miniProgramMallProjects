@@ -6,17 +6,61 @@ Page({
    */
   data: {
     checked: false,
+    totalPrice:0,
+    num:1,
+    display1: "block",
+    display2: "none"
   },
   onChange(event) {
-    this.setData({
-      checked: event.detail,
-    });
+    console.log(event.detail);
+    if(event.detail == true ){
+      var price = this.data.num*127
+      console.log(price);
+      console.log(this.data.num);
+      this.setData({
+        totalPrice:price,
+        num:this.data.num,
+        checked:event.detail,
+        display1: "none",
+        display2: "block"
+      })
+    }else{
+      this.setData({
+        totalPrice:0,
+        checked:event.detail,
+        display1: "block",
+        display2: "none"
+      })
+    }
+    
+    
+  },
+  onStepper(event) {
+    if(this.data.checked == true ){
+      var price = event.detail*127
+      console.log(price);
+      this.setData({
+        totalPrice:price,
+        num:event.detail
+      })
+    }
+  
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    if(this.data.checked == false){
+      this.data({
+        display1: "block",
+        display2: "none"
+      })
+    }else{
+      this.data({
+        display1: "none",
+        display2: "block"
+      })
+    }
   },
 
   /**

@@ -1,5 +1,49 @@
 <view class="container">
   <view class="header">微信小程序搜索“商城”可查看更多订单</view>
+  <view class="main_maxdiv">
+    <view class="shop_div">
+      <view class="shop_select">
+        <van-checkbox value="{{ checked }}" checked-color="#FF4444" bind:change="onChange">
+        </van-checkbox>
+      </view>
+
+      <view class="shop_maxdiv">
+        <view class="shop_icondiv">
+          <van-icon name="shop-o" />
+        </view>
+        <view class="shop_nr">西施严选旗舰店</view>
+        <view class="shop_arrow">
+          <van-icon name="arrow" />
+        </view>
+      </view>
+
+    </view>
+
+    <view class="shop_nrdiv">
+      <view class="shop_select">
+        <van-checkbox value="{{ checked }}" checked-color="#FF4444" bind:change="onChange">
+        </van-checkbox>
+      </view>
+
+      <view class="shop_imgdiv"></view>
+
+      <view class="commodity_nrdiv">
+        <view class="commodity_nr">【好想你_美丽方218g】新疆特产核桃夹心枣枣仁派休闲零食果干</view>
+        <view class="specification">【买3送2】实发5盒</view>
+        <view class="price">￥127</view>
+        <view class="num_div"><van-stepper value="{{ num }}" integer input-width="30px" button-size="20px" bind:change="onStepper" /></view>
+      </view>
+
+
+
+
+    </view>
+
+
+
+
+
+  </view>
 </view>
 
 <view class="toolbar_div">
@@ -9,10 +53,11 @@
     </van-checkbox>
   </view>
 
-  <view class="settlement">结算(0)</view>
+  <view class="settlement" style=" display: {{display1}};">结算(0)</view>
+  <view class="settlement" style="background-color: #FF4444;color: white;display: {{display2}};">结算(1)</view>
   <view class="total_div">
     <view class="total">
-      <view class="total_nr" style="color:#FF4444;">￥0</view>
+      <view class="total_nr" style="color:#FF4444;">￥{{totalPrice}}</view>
       <view class="total_nr">合计：</view>
 
     </view>
