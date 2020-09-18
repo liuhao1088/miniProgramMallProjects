@@ -28,16 +28,793 @@
 
     <view class="mian_productdiv">
       <view class="product_maxdiv">
-        <van-tabs  sticky animated color="#DEC592;"  tab-class="tabs" >
-          <van-tab title="推荐" title-style="color: #DEC592;" >
-              <view class="product_div"></view>
+        <van-tabs sticky animated color="#DEC592;" tab-class="tabs">
+          <van-tab title="推荐" title-style="color: #DEC592;">
+            <view class="product_div">
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#E6AA7F;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#E1898D;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#1484BE;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#18A061;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#4D040A;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#F89784;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#F6ED4D;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+            </view>
 
 
           </van-tab>
-          <van-tab title="美容个护" title-style="color: #DEC592;">内容 2</van-tab>
-          <van-tab title="居家好物" title-style="color: #DEC592;">内容 3</van-tab>
-          <van-tab title="时令美食" title-style="color: #DEC592;">内容 4</van-tab>
-          <van-tab title="潮人穿搭" title-style="color: #DEC592;">内容 5</van-tab>
+          <van-tab title="美容个护" title-style="color: #DEC592;">
+            <view class="product_div">
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#DB7093;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#FFA500;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#FFE4B5;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#191970;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#C71585;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#BA55D3;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#00FF00;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#FF00FF;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+            </view>
+
+          </van-tab>
+          <van-tab title="居家好物" title-style="color: #DEC592;">
+            <view class="product_div">
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#A0522D;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#8B4513;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#B0E0E6;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#1484BE;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#808000;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#FFA500;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#98FB98;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#DB7093;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+            </view>
+
+          </van-tab>
+          <van-tab title="时令美食" title-style="color: #DEC592;">
+            <view class="product_div">
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#9ACD32;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#F5DEB3;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#EE82EE;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#A0522D;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#DB7093;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#EEE8AA;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#9370DB;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#66CDAA;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+            </view>
+
+          </van-tab>
+          <van-tab title="潮人穿搭" title-style="color: #DEC592;">
+            <view class="product_div">
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#F08080;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#FFD700;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#556B2F;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#FF7F50;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#6495ED;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#D2691E;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#5F9EA0;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+              <view class="product_content">
+                <view class="product">
+                  <view class="product_img" style="background-color:#8A2BE2;"></view>
+                  <view class="product_description">英国HIK珠宝饰品小蛮腰系列项链 耳钉手链套装18K镀金925纯银三件套</view>
+                  <view class="product_status">
+                    <view class="product_status_div">会员</view>
+                    <view class="product_status_div2">专享价</view>
+                  </view>
+                  <view class="product_prices_div">
+                    <view class="nrdiv_tagdiv">
+                      <view class="tag">￥</view>
+                      <view class="num">19.9</view>
+                    </view>
+                    <view class="spj_div">商品价￥899</view>
+                  </view>
+
+                </view>
+              </view>
+
+            </view>
+
+          </van-tab>
         </van-tabs>
       </view>
     </view>
