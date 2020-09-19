@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "van-count-down": "/miniprogram_npm/@vant/weapp/count-down/index",
+    "van-icon": "/miniprogram_npm/@vant/weapp/icon/index",
+    "van-progress": "/miniprogram_npm/@vant/weapp/progress/index"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#FF4444",
+  "navigationBarTitleText": "今日比拼",
+  "navigationBarTextStyle": "white"
+}

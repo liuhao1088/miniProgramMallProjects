@@ -1,0 +1,569 @@
+<view class="container">
+  <view class="header_maxdiv">
+    <view class="tab_div">
+      <view class="tab" bindtap="tabdj1" style="border-right: 1rpx solid white;">
+        <view class="tab_nr1" style="font-weight: {{weight1}};">HOT</view>
+        <view class="tab_nr2" style="font-weight: {{weight2}};">正在疯抢</view>
+      </view>
+
+      <view class="tab" bindtap="tabdj2">
+        <view class="tab_nr3" style="font-weight: {{weight3}};">10:00</view>
+        <view class="tab_nr4" style="font-weight: {{weight4}};">明日预告</view>
+      </view>
+
+    </view>
+
+    <view class="content" style="display: {{display1}};">
+      <view class="czt_div">
+        <view class="main_div">
+          <view class="main_div_title">9.9超值团</view>
+          <view class="main_div_down">
+            <van-count-down use-slot time="{{ time }}" bind:change="onChange">
+              <text class="item">{{ timeData.hours }}</text>
+              <text class="point">:</text>
+              <text class="item">{{ timeData.minutes }}</text>
+              <text class="point">:</text>
+              <text class="item">{{ timeData.seconds }}</text>
+              <!-- <text class="point">:</text>
+              <text class="item">{{ timeData.milliseconds }}</text> -->
+            </van-count-down>
+          </view>
+        </view>
+
+        <view class="products_div">
+          <view class="products_maxdiv">
+            <view class="products">
+              <view class="products_img"></view>
+              <view class="products_description">特价正品草本原株</view>
+              <view class="nrdiv_tagdiv">
+                <view class="nrdiv_maxdiv">
+                  <view class="tag">￥</view>
+                  <view class="num">19.9</view>
+                </view>
+              </view>
+            </view>
+          </view>
+
+          <view class="products_maxdiv">
+            <view class="products">
+              <view class="products_img" style="background-color: #FCE3DC;"></view>
+              <view class="products_description">日式马卡龙色软毛</view>
+              <view class="nrdiv_tagdiv">
+                <view class="nrdiv_maxdiv">
+                  <view class="tag">￥</view>
+                  <view class="num">19.9</view>
+                </view>
+              </view>
+            </view>
+          </view>
+
+          <view class="products_maxdiv">
+            <view class="products">
+              <view class="products_img" style="background-color: #ADBBD4;"></view>
+              <view class="products_description">【外贸出口】杀菌</view>
+              <view class="nrdiv_tagdiv">
+                <view class="nrdiv_maxdiv">
+                  <view class="tag">￥</view>
+                  <view class="num">19.9</view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+
+      </view>
+
+      <view class="title_div">
+        <view class="title"><text style="color: #FF4444;">5折</text>热卖团</view>
+        <view class="description">限时特价 抢完即止</view>
+      </view>
+
+      <view class="rmt_products_div">
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="msq_div">马上抢</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #BFC1CE;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="msq_div">马上抢</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #EBD5E6;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="msq_div">马上抢</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #5E709C;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="msq_div">马上抢</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #E1C0B9;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="msq_div">马上抢</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="title_div">
+          <view class="title">大家都在拼</view>
+          <view class="description">发现热卖好物</view>
+        </view>
+
+        <view class="column">
+          <view class="column_div">
+            <view class="column_imgdiv" style="background-color:#E39D91"></view>
+            <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+            <view class="column_jgdiv">
+              <view class="column_jg">
+                <view class="nrdiv_tagdiv2" style="margin-left:0rpx;">
+                  <view class="tag2" style="font-weight: 700;">￥</view>
+                  <view class="num2" style="margin-left:0rpx">129</view>
+                </view>
+              </view>
+              <view class="column_xsdiv">3340已售</view>
+            </view>
+          </view>
+
+          <view class="column_div" style="margin-left:10rpx">
+            <view class="column_imgdiv" style="background-color:#F3C041"></view>
+            <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+            <view class="column_jgdiv">
+              <view class="column_jg">
+                <view class="nrdiv_tagdiv2" style="margin-left:0rpx;">
+                  <view class="tag2" style="font-weight: 700;bottom: -34rpx;">￥</view>
+                  <view class="num2" style="margin-left:0rpx;bottom: -32rpx;">129</view>
+                </view>
+              </view>
+              <view class="column_xsdiv">3340已售</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="column">
+          <view class="column_div">
+            <view class="column_imgdiv" style="background-color:#E39D91"></view>
+            <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+            <view class="column_jgdiv">
+              <view class="column_jg">
+                <view class="nrdiv_tagdiv2" style="margin-left:0rpx;">
+                  <view class="tag2" style="font-weight: 700;">￥</view>
+                  <view class="num2" style="margin-left:0rpx">129</view>
+                </view>
+              </view>
+              <view class="column_xsdiv">3340已售</view>
+            </view>
+          </view>
+
+          <view class="column_div" style="margin-left:10rpx">
+            <view class="column_imgdiv" style="background-color:#F3C041"></view>
+            <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+            <view class="column_jgdiv">
+              <view class="column_jg">
+                <view class="nrdiv_tagdiv2" style="margin-left:0rpx;">
+                  <view class="tag2" style="font-weight: 700;bottom: -34rpx;">￥</view>
+                  <view class="num2" style="margin-left:0rpx;bottom: -32rpx;">129</view>
+                </view>
+              </view>
+              <view class="column_xsdiv">3340已售</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="column">
+          <view class="column_div">
+            <view class="column_imgdiv" style="background-color:#E39D91"></view>
+            <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+            <view class="column_jgdiv">
+              <view class="column_jg">
+                <view class="nrdiv_tagdiv2" style="margin-left:0rpx;">
+                  <view class="tag2" style="font-weight: 700;">￥</view>
+                  <view class="num2" style="margin-left:0rpx">129</view>
+                </view>
+              </view>
+              <view class="column_xsdiv">3340已售</view>
+            </view>
+          </view>
+
+          <view class="column_div" style="margin-left:10rpx">
+            <view class="column_imgdiv" style="background-color:#F3C041"></view>
+            <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
+            <view class="column_jgdiv">
+              <view class="column_jg">
+                <view class="nrdiv_tagdiv2" style="margin-left:0rpx;">
+                  <view class="tag2" style="font-weight: 700;bottom: -34rpx;">￥</view>
+                  <view class="num2" style="margin-left:0rpx;bottom: -32rpx;">129</view>
+                </view>
+              </view>
+              <view class="column_xsdiv">3340已售</view>
+            </view>
+          </view>
+        </view>
+
+      </view>
+
+
+
+    </view>
+
+
+
+
+
+
+
+    <view class="content" style="display: {{display2}};">
+      <view class="mryg_maxdiv">
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #FF7744;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #FF8800;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #009FCC;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #AAFFEE;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #CC00CC;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #7700FF;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #003377;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #00DDDD;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #008866;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #66FFFF;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #E93EFF;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+        <view class="rmt_div">
+          <view class="rmt_img_div">
+            <view class="rmt_img" style="background-color: #770077;"></view>
+          </view>
+          <view class="rmt_nr_div">
+            <view class="rmt_nr">宝宝秋冬专属！安贝儿婴儿山茶油润肤露</view>
+            <view class="progress_maxdiv">
+              <van-progress pivot-text="0%" color="#FEECEC" percentage="0" text-color="#FF4444" stroke-width="10px" />
+            </view>
+            <view class="rmt_jg_div">
+              <view class="nrdiv_tagdiv2">
+                <view class="tag2">￥</view>
+                <view class="num2">19.9</view>
+              </view>
+              <view class="yj_div">￥129</view>
+              <view class="txw_div">提醒我</view>
+            </view>
+          </view>
+        </view>
+
+
+      </view>
+
+
+    </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </view>
+
+  <view class="return" style="display: {{display}};" bindtap="goToTop">
+    <van-icon name="arrow-up" />
+  </view>
+
+</view>

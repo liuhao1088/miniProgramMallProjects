@@ -1,12 +1,12 @@
 {
   "pages":[
+    "pages/index/index",
+    "pages/competitionToday/competitionToday",
     "pages/vipCentre/vipCentre",
     "pages/wode/wode",
-    "pages/index/index",
     "pages/shopCart/shopCart",
-    "pages/butie/butie"
-    
-    
+    "pages/butie/butie",
+    "pages/productDetails/productDetails"
   ],
   "window":{
     "backgroundTextStyle":"light",

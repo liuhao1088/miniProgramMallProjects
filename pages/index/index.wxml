@@ -106,7 +106,7 @@
   </view>
 
   <view class="content_jrbp">
-    <view class="content_jrbp_nrdiv">
+    <view class="content_jrbp_nrdiv" bindtap="todaydj">
       <view class="nrdiv">
         <view class="nrdiv_img"></view>
         <view class="nrdiv_js">【好想你_美丽方218g】新疆特产核桃夹心枣枣仁派休闲零食果干</view>

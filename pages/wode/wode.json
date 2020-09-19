@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "van-icon": "/miniprogram_npm/vant-weapp/icon/index"
+    "van-icon": "/miniprogram_npm/@vant/weapp/icon/index"
   },
   "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#FEFEFE",

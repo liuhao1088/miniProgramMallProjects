@@ -1,9 +1,9 @@
 {
   "usingComponents": {
-    "van-checkbox": "/miniprogram_npm/vant-weapp/checkbox/index",
-    "van-icon": "/miniprogram_npm/vant-weapp/icon/index",
-    "van-checkbox-group": "/miniprogram_npm/vant-weapp/checkbox-group/index",
-    "van-stepper": "/miniprogram_npm/vant-weapp/stepper/index"
+    "van-checkbox": "/miniprogram_npm/@vant/weapp/checkbox/index",
+    "van-icon": "/miniprogram_npm/@vant/weapp/icon/index",
+    "van-checkbox-group": "/miniprogram_npm/@vant/weapp/checkbox-group/index",
+    "van-stepper": "/miniprogram_npm/@vant/weapp/stepper/index"
   },
   "backgroundTextStyle": "dark",
   "navigationBarBackgroundColor": "#fff",
