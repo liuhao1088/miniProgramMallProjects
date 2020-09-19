@@ -1,2 +1,80 @@
-<!--pages/productDetails/productDetails.wxml-->
-<text>pages/productDetails/productDetails.wxml</text>
+<view class="container" style="padding-bottom: 120rpx;">
+  <view class="lbt_div">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}"
+      easing-function="easeInOutCubic" style="height:100%;width: 100%;">
+      <swiper-item wx:for="{{img}}" wx:key="img">
+        <image src="{{item}}" class="slide-image" data-index='{{index}}' bindtap='previewImg' />
+      </swiper-item>
+
+    </swiper>
+
+    <view class="xszk_div">限时折扣</view>
+  </view>
+
+  <view class="products_prices">
+    <view class="nrdiv_tagdiv">
+      <view class="tag">￥</view>
+      <view class="num">19.9</view>
+    </view>
+    <view class="nrdiv_jgdiv2">￥39.8</view>
+  </view>
+
+
+  <view class="products_description_div">
+    <view class="products_description">
+      【推荐】给家里换一套好的餐具吧~16件套日式和风千叶草手绘釉下彩餐具陶瓷套装 精心选材，手工制作，良心推荐
+    </view>
+
+  </view>
+
+  <view class="shipping_maxdiv">
+    <view class="shipping_div">
+      <view class="shipping">运费：￥0.00-15.00</view>
+      <view class="remaining_div">剩余：985</view>
+    </view>
+  </view>
+
+  <view class="service_div">
+    <van-cell title="服务收货后结算" is-link bind:click="settlementShowPopup" />
+
+  </view>
+
+  <view class="service_div">
+    <van-cell title="暂无评价" />
+  </view>
+  <view class="service_div">
+    <van-cell icon="shop-o" title="某店" is-link value="进店逛逛" />
+  </view>
+
+  <view class="product_details_div">
+    
+  </view>
+
+</view>
+
+<van-popup show="{{ settlementShow }}" position="bottom" custom-style="height: 75%" bind:close="settlementClose">
+  <view class="settlement_div">
+    <view class="settlement_title">
+      <view class="settlement_icon">
+        <van-icon name="passed" />
+      </view>
+      <view class="settlement_nr">收货后结算</view>
+    </view>
+
+    <view class="settlement_introduction">
+      该店铺由某赞提供资金担保服务，再买家确定收货以后，资金才会结算给商家。或自商家确认发货后，在双方约定的自动确认收货日期到期后，资金才会结算给商家
+    </view>
+  </view>
+
+  <view class="title_div" bindtap="wzdldj">我知道了</view>
+</van-popup>
+
+<!-- <view class="goods_div">
+  <van-goods-action style="">
+    <van-goods-action-icon icon="thumb-circle-o" text="首页" bind:click="home"/>
+    <van-goods-action-icon icon="chat-o" icon-class="icon_color" text="客服"  />
+    <van-goods-action-icon icon="cart-o" text="购物车" dot bind:click="shopCart" />
+    <van-goods-action-button text="加入购物车" type="warning" />
+    <van-goods-action-button text="立即购买" />
+  </van-goods-action>
+</view> -->

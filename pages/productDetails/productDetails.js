@@ -5,9 +5,49 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    img:[
+      "https://i.loli.net/2020/09/08/wpj9ChrWl3VcbJO.jpg",
+      "https://i.loli.net/2020/09/08/UApIuz5mBCoQWHe.jpg",
+      "https://i.loli.net/2020/09/08/4VWd9RBxZCzTY3p.jpg"
+    ],
+    indicatorDots: true,
+    autoplay: true,
+    interval: 3000,
+    duration: 1000,
+    settlementShow: false,//结算
+  },
+  wzdldj:function(){
+    this.setData({ settlementShow: false });
+  },
+  settlementShowPopup() {
+    this.setData({ settlementShow: true });
   },
 
+  settlementClose() {
+    this.setData({ settlementShow: false });
+  },
+  home:function(){
+    wx.switchTab({
+      url: '../index/index',
+    })
+  },
+  shopCart:function(){
+    wx.switchTab({
+      url: '../shopCart/shopCart',
+    })
+  },
+
+  previewImg:function(e){
+    var index = e.currentTarget.dataset.index;
+    console.log(index);
+    wx.previewImage({
+      current: this.data.img[index],     //当前图片地址
+      urls: this.data.img,               //所有要预览的图片的地址集合 数组形式
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

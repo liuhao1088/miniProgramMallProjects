@@ -1,1 +1,220 @@
-/* pages/productDetails/productDetails.wxss */
+.lbt_div {
+  width: 100%;
+  height: 800rpx;
+  border-radius: 10rpx;
+  border: 0rpx solid red;
+  float: left;
+
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+
+.xszk_div {
+  width: 180rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 26rpx;
+  text-align: center;
+  color: white;
+  position: relative;
+  bottom: 50rpx;
+  background-color: #FE4343;
+  border-top-right-radius: 10rpx;
+}
+
+.products_prices {
+  height: 120rpx;
+  width: 100%;
+  background-color: #FE4343;
+  float: left;
+}
+
+
+.nrdiv_tagdiv {
+  height: 100%;
+  float: left;
+  margin-left: 20rpx;
+  border: 0rpx solid blue;
+  color: white;
+}
+
+.tag {
+  float: left;
+  position: relative;
+  /* bottom: -21rpx; */
+  border: 0rpx solid gold;
+  font-weight: 600;
+  text-align: center;
+  line-height: 150rpx;
+  font-size: 30rpx;
+  height: 100%;
+}
+
+.num {
+  float: left;
+  /* font-weight: 700; */
+  text-align: center;
+  line-height: 140rpx;
+  position: relative;
+  /* bottom: -19rpx; */
+  margin-left: 4rpx;
+  font-size: 50rpx;
+}
+
+.nrdiv_jgdiv2 {
+  float: left;
+  font-size: 30rpx;
+  color: #B3B3B3;
+  /* position: relative; */
+  /* bottom: -13rpx; */
+  margin-left: 20rpx;
+  text-decoration: line-through;
+  height: 100%;
+  line-height: 150rpx;
+  font-size: 30rpx;
+}
+
+.products_description_div {
+  width: 100%;
+  padding-top: 16rpx;
+  padding-bottom: 16rpx;
+  background-color: white;
+  float: left;
+}
+
+.products_description {
+  width: 90%;
+  line-height: 40rpx;
+  font-weight: 700;
+  font-size: 32rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  margin-left: 20rpx;
+}
+
+.shipping_maxdiv {
+  width: 100%;
+  height: 60rpx;
+  background-color: white;
+  margin-top: 20rpx;
+  border: 0rpx solid red;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.shipping_div {
+  width: 95%;
+  height: 100%;
+}
+
+.shipping {
+  line-height: 60rpx;
+  font-size: 24rpx;
+  color: #B3B3B3;
+  float: left;
+}
+
+.remaining_div {
+  line-height: 60rpx;
+  font-size: 24rpx;
+  color: #B3B3B3;
+  float: right;
+}
+
+.service_div {
+  width: 100%;
+  height: 80rpx;
+  background-color: white;
+  margin-top: 20rpx;
+  border: 0rpx solid red;
+  float: left;
+}
+
+view .van-cell__value {
+  color: black;
+}
+
+.product_details_div{
+  width: 100%;
+  background-color: white;
+  margin-top: 20rpx;
+}
+
+/* 结算弹窗 */
+.title_div {
+  width: 100%;
+  height: 100rpx;
+  background-color: #FE4343;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.settlement_div {
+  width: 100%;
+  border: 0rpx solid black;
+  padding-top: 20rpx;
+  float: left;
+}
+
+.settlement_title {
+  height: 50rpx;
+  width: 50%;
+  border: 0rpx solid red;
+  float: left;
+  margin-left: 20rpx;
+}
+
+.settlement_icon {
+  height: 100%;
+  line-height: 58rpx;
+  font-size: 32rpx;
+  color: #07C160;
+  float: left;
+}
+
+.settlement_nr {
+  height: 100%;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  float: left;
+  margin-left: 10rpx;
+}
+
+.settlement_introduction {
+  width: 85%;
+  height: 100rpx;
+  float: left;
+  line-height: 30rpx;
+  font-size: 20rpx;
+  border: 0rpx solid red;
+  color: #B3B3B3;
+  margin-left: 60rpx;
+  margin-top: 10rpx;
+}
+
+/* 底部 */
+
+.goods_div {
+  width: 100%;
+  height: 100rpx;
+  border: 0rpx solid red;
+  position: fixed;
+  bottom: 0;
+  border: 1rpx solid #ebedf0;
+}
+
+.icon_color {
+  color: #FE4343;
+}

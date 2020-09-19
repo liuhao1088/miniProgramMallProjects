@@ -1,7 +1,14 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "van-goods-action": "/miniprogram_npm/@vant/weapp/goods-action/index",
+    "van-goods-action-icon": "/miniprogram_npm/@vant/weapp/goods-action-icon/index",
+    "van-goods-action-button": "/miniprogram_npm/@vant/weapp/goods-action-button/index",
+    "van-popup": "/miniprogram_npm/@vant/weapp/popup/index",
+    "van-cell": "/miniprogram_npm/@vant/weapp/cell/index",
+    "van-icon": "/miniprogram_npm/@vant/weapp/icon/index"
+  },
   "backgroundTextStyle": "light",
-  "navigationBarBackgroundColor": "#000",
+  "navigationBarBackgroundColor": "#fff",
   "navigationBarTitleText": "商品详情",
-  "navigationBarTextStyle": "white"
+  "navigationBarTextStyle": "black"
 }
