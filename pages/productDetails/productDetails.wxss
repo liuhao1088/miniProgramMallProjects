@@ -142,10 +142,91 @@ view .van-cell__value {
   color: black;
 }
 
-.product_details_div{
+.product_details_div {
   width: 100%;
-  background-color: white;
+  height: 1000rpx;
+  background-color: #FE4343;
   margin-top: 20rpx;
+  text-align: center;
+  line-height: 1000rpx;
+  font-size: 50rpx;
+  color: white;
+  font-weight: 700;
+}
+
+.product_collapse_div {
+  width: 100%;
+  margin-top: 20rpx;
+}
+
+.product_collapse_nr {
+  width: 100%;
+  font-size: 24rpx;
+  color: black;
+}
+
+.you_like_div {
+  width: 90%;
+  height: 60rpx;
+  margin: auto;
+  border: 0rpx solid red;
+  line-height: 60rpx;
+}
+
+.you_like_product_div {
+  width: 100%;
+  border: 0rpx solid red;
+  margin-top: 20rpx;
+  padding-bottom: 20rpx;
+}
+
+.you_like_product_maxdiv {
+  width: calc(100%/2);
+  height: 450rpx;
+  float: left;
+  border: 0rpx solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.you_like_product {
+  height: 95%;
+  width: 85%;
+  border: 0rpx solid blue;
+  border-radius: 10rpx;
+  background-color: white;
+}
+
+.you_like_product_img {
+  width: 100%;
+  height: 70%;
+  background-color: #723A14;
+  float: left;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+}
+
+.you_like_product_description {
+  width: 100%;
+  line-height: 34rpx;
+  font-size: 26rpx;
+  margin-top: 10rpx;
+  float: left;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.you_like_product_price {
+  width: 100%;
+  line-height: 26rpx;
+  font-size: 26rpx;
+  color: #FE4343;
+  float: left;
+  margin-top: 10rpx;
 }
 
 /* 结算弹窗 */
@@ -204,11 +285,151 @@ view .van-cell__value {
   margin-top: 10rpx;
 }
 
+/* 选择规格 */
+.specification_img_div {
+  width: 100%;
+  height: 35%;
+  border-bottom: 1rpx solid #E5E5E5;
+  float: left;
+}
+
+view .van-icon-close {
+  font-size: 50rpx;
+  top: -18rpx;
+}
+
+.specification_img {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  float: left;
+  background-color: #E5C185;
+  position: relative;
+  top: -20rpx;
+  z-index: 1000;
+}
+
+view .van-popup {
+  overflow-y: none;
+}
+
+.specification_title {
+  font-size: 24rpx;
+  width: 65%;
+  float: left;
+  line-height: 24rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  margin-top: 24rpx;
+  margin-left: 10rpx;
+}
+
+.specification_price{
+  font-size: 30rpx;
+  float: left;
+  line-height: 24rpx;
+  margin-top: 30rpx;
+  margin-left: 10rpx;
+  color: #FE4343;
+}
+
+.specification_select_div{
+  width: 100%;
+  border-bottom: 1rpx solid #E5E5E5;
+  margin-top: 50rpx;
+  float: left;
+}
+
+.specification_tag{
+  margin-left: 20rpx; 
+  font-size: 24rpx;
+  font-weight: 600;
+  line-height: 24rpx;
+  float: left;
+}
+
+.specification_maxdiv{
+  width: 100%;
+  padding-bottom: 20rpx;
+  border: 0rpx solid black;
+  float: left;
+}
+
+.specification_select{
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  font-size: 24rpx;
+  border: 1rpx solid #B3B3B3;
+  border-radius: 4rpx;
+  margin-left: 20rpx;
+  float: left;
+  padding-left: 30rpx;
+  padding-right:30rpx ;
+  margin-top: 20rpx;
+}
+
+.specification_num_div{
+  width: 100%;
+  float: left;
+  padding-bottom: 20rpx;
+  border: 0rpx solid red;
+  margin-top: 20rpx;
+}
+
+.specification_num_title{
+  border: 0rpx solid black;
+  float: left;
+  margin-left: 20rpx;
+}
+
+.num_title{
+  width: 100%;
+  line-height: 50rpx;
+  font-size: 30rpx;
+  float: left;
+}
+
+.num{
+  width: 100%;
+  float: left;
+  line-height: 30rpx;
+  font-size: 26rpx;
+  color: #B3B3B3;
+  text-align: left;
+}
+
+.specification_stepper{
+  float: right;
+  margin-right: 20rpx;
+  height: 70rpx;
+  border: 0rpx solid red;
+  margin-top: 10rpx;
+}
+
+view .van-stepper__minus {
+  background-color: #B3B3B3;
+}
+
+.specification_but{
+  width: 100%;
+  margin-top: 20rpx;
+  float: left;
+  padding-bottom: 20rpx;
+}
+
+.but_div{
+  width: 95%;
+  margin: auto;
+}
 /* 底部 */
 
 .goods_div {
   width: 100%;
-  height: 100rpx;
   border: 0rpx solid red;
   position: fixed;
   bottom: 0;

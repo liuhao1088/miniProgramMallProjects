@@ -35,6 +35,11 @@
   </view>
 
   <view class="service_div">
+    <van-cell title="{{specificationTitle}}" is-link bind:click="specificationPopup" />
+
+  </view>
+
+  <view class="service_div">
     <van-cell title="服务收货后结算" is-link bind:click="settlementShowPopup" />
 
   </view>
@@ -47,10 +52,145 @@
   </view>
 
   <view class="product_details_div">
-    
+    商品详情
+  </view>
+
+  <view class="product_collapse_div">
+    <van-collapse value="{{ activeNames }}" bind:change="onChange">
+      <van-collapse-item title="划线价格说明" name="2">
+        <view class="product_collapse_nr">
+          划线价格：划线的价格可能是商品的专柜价、吊牌价、正品零售价、指导价、曾经展示过的销售价等，仅供您参考
+        </view>
+        <view class="product_collapse_nr" style=" margin-top: 20rpx;">
+          未划线价格：未划线的价格是商品的销售标价，具体的成交价格可能因会员使用优惠券、积分等发生变化，最终以订单结算价格为准
+        </view>
+        <view class="product_collapse_nr" style=" margin-top: 20rpx;">
+          *此说明仅但出现价格比较时有效。若这件商品针对划线价格进行了特殊说明，以特殊说明为准
+        </view>
+      </van-collapse-item>
+    </van-collapse>
+
+  </view>
+
+  <view class="you_like_div">
+    <van-divider contentPosition="center"
+      customStyle="color: #999999; border-color: #EBECED; font-size: 12px;line-height: 0rpx;">
+      猜你喜欢
+    </van-divider>
+  </view>
+
+  <view class="you_like_product_div">
+    <view class="you_like_product_maxdiv">
+      <view class="you_like_product">
+        <view class="you_like_product_img"></view>
+        <view class="you_like_product_description">
+          【预售 10月初发货】 诸暨枫桥香榧110g 壳薄仁满 珍贵坚果 地标产品
+        </view>
+        <view class="you_like_product_price">￥29.90</view>
+      </view>
+    </view>
+
+    <view class="you_like_product_maxdiv">
+      <view class="you_like_product">
+        <view class="you_like_product_img" style="background-color: #FAD5AA;"></view>
+        <view class="you_like_product_description">
+          【预售 10月初发货】 诸暨枫桥香榧110g 壳薄仁满 珍贵坚果 地标产品
+        </view>
+        <view class="you_like_product_price">￥29.90</view>
+      </view>
+    </view>
+
+    <view class="you_like_product_maxdiv">
+      <view class="you_like_product">
+        <view class="you_like_product_img" style="background-color: #F09E88;"></view>
+        <view class="you_like_product_description">
+          【预售 10月初发货】 诸暨枫桥香榧110g 壳薄仁满 珍贵坚果 地标产品
+        </view>
+        <view class="you_like_product_price">￥29.90</view>
+      </view>
+    </view>
+
+    <view class="you_like_product_maxdiv">
+      <view class="you_like_product">
+        <view class="you_like_product_img" style="background-color: #E37F25;"></view>
+        <view class="you_like_product_description">
+          【预售 10月初发货】 诸暨枫桥香榧110g 壳薄仁满 珍贵坚果 地标产品
+        </view>
+        <view class="you_like_product_price">￥29.90</view>
+      </view>
+    </view>
+
+    <view class="you_like_product_maxdiv">
+      <view class="you_like_product">
+        <view class="you_like_product_img" style="background-color: #A53E11;"></view>
+        <view class="you_like_product_description">
+          【预售 10月初发货】 诸暨枫桥香榧110g 壳薄仁满 珍贵坚果 地标产品
+        </view>
+        <view class="you_like_product_price">￥29.90</view>
+      </view>
+    </view>
+
+    <view class="you_like_product_maxdiv">
+      <view class="you_like_product">
+        <view class="you_like_product_img" style="background-color: #D84647;"></view>
+        <view class="you_like_product_description">
+          【预售 10月初发货】 诸暨枫桥香榧110g 壳薄仁满 珍贵坚果 地标产品
+        </view>
+        <view class="you_like_product_price">￥29.90</view>
+      </view>
+    </view>
+
   </view>
 
 </view>
+
+<van-popup show="{{ specification }}" closeable position="bottom" close-icon="close"
+  bind:close="specificationClose">
+
+  <view class="specification_img_div">
+    <view class="specification_img"></view>
+    <view class="specification_title">
+      【潮汕 枇杷膏】传统手工制作 优选枇杷浓缩熬制 清新滋润枇杷糕
+    </view>
+    <view class="specification_price">
+      ￥15.92-99.50
+    </view>
+  </view>
+
+  <view class="specification_select_div">
+    <view class="specification_tag">规格：</view>
+    <view class="specification_maxdiv">
+      <view class="specification_select">
+        1袋装
+      </view>
+      <view class="specification_select">
+        买三赠一（实发4袋）
+      </view>
+      <view class="specification_select">
+        买五赠二（实发7袋）
+      </view>
+    </view>
+  </view>
+
+  <view class="specification_num_div">
+    <view class="specification_num_title">
+      <view class="num_title">购买数量</view>
+      <view class="num">剩余356件</view>
+    </view>
+    <view class="specification_stepper">
+      <van-stepper value="{{ num }}" integer input-width="40px" button-size="40px" bind:change="onStepper" />
+    </view>
+  </view>
+
+  <view class="specification_but">
+    <view class="but_div">
+      <van-button type="primary" block round color="#FE4343" size="small" custom-style="font-weight: 600;">下一步</van-button>
+    </view>
+    
+  </view>
+
+
+</van-popup>
 
 <van-popup show="{{ settlementShow }}" position="bottom" custom-style="height: 75%" bind:close="settlementClose">
   <view class="settlement_div">
@@ -69,12 +209,12 @@
   <view class="title_div" bindtap="wzdldj">我知道了</view>
 </van-popup>
 
-<!-- <view class="goods_div">
-  <van-goods-action style="">
-    <van-goods-action-icon icon="thumb-circle-o" text="首页" bind:click="home"/>
-    <van-goods-action-icon icon="chat-o" icon-class="icon_color" text="客服"  />
+<view class="goods_div">
+  <van-goods-action>
+    <van-goods-action-icon icon="thumb-circle-o" text="首页" bind:click="home" />
+    <van-goods-action-icon icon="chat-o" icon-class="icon_color" text="客服" />
     <van-goods-action-icon icon="cart-o" text="购物车" dot bind:click="shopCart" />
     <van-goods-action-button text="加入购物车" type="warning" />
     <van-goods-action-button text="立即购买" />
   </van-goods-action>
-</view> -->
+</view>

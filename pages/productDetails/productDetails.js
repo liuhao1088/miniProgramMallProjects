@@ -15,10 +15,26 @@ Page({
     interval: 3000,
     duration: 1000,
     settlementShow: false,//结算
+    activeNames: ['1'],//折叠面板
+    specificationTitle:"选择：规格",//选择规格
+    specification: true,//选择规格
+  },
+  onChange(event) {
+    this.setData({
+      activeNames: event.detail,
+    });
   },
   wzdldj:function(){
     this.setData({ settlementShow: false });
   },
+
+  specificationPopup() {
+    this.setData({ specification: true });
+  },
+  specificationClose() {
+    this.setData({ specification: false });
+  },
+
   settlementShowPopup() {
     this.setData({ settlementShow: true });
   },
