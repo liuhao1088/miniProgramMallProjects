@@ -1,7 +1,8 @@
 {
   "pages":[
-    "pages/productDetails/productDetails",
     "pages/index/index",
+    "pages/productDetails/productDetails",
+    
     "pages/competitionToday/competitionToday",
     "pages/vipCentre/vipCentre",
     "pages/wode/wode",

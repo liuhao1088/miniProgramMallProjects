@@ -76,7 +76,7 @@
         </view>
       </view>
 
-      <view class="mssx">
+      <view class="mssx" bindtap="jphydj">
         <view class="mssx_maxdiv">
           <view class="mssx_img" style="background-color:#5A5751"></view>
           <view class="mssx_nr">精选会员</view>
@@ -156,7 +156,7 @@
 
   <view class="main">
     <view class="main_wrap">
-      <view class="main_div">
+      <view class="main_div" bindtap="productjd">
         <view class="main_maxdiv">
 
           <view class="main_img"></view>
@@ -174,7 +174,7 @@
         </view>
       </view>
 
-      <view class="main_div">
+      <view class="main_div" bindtap="productjd">
         <view class="main_maxdiv">
           <view class="main_img" style="background-color:#FB5182"></view>
           <view class="main_nrdiv">
@@ -190,7 +190,7 @@
         </view>
       </view>
 
-      <view class="main_div">
+      <view class="main_div" bindtap="productjd">
         <view class="main_maxdiv">
           <view class="main_img" style="background-color:#F08E5F"></view>
           <view class="main_nrdiv">
@@ -235,7 +235,7 @@
     </view>
 
     <view class="column">
-      <view class="column_div">
+      <view class="column_div" bindtap="productjd">
         <view class="column_imgdiv"></view>
         <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
         <view class="column_jgdiv">
@@ -249,7 +249,7 @@
         </view>
       </view>
 
-      <view class="column_div" style="margin-left:10rpx">
+      <view class="column_div" style="margin-left:10rpx" bindtap="productjd">
         <view class="column_imgdiv" style="background-color:#FC551B"></view>
         <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
         <view class="column_jgdiv">
@@ -266,7 +266,7 @@
 
 
     <view class="column">
-      <view class="column_div">
+      <view class="column_div" bindtap="productjd">
         <view class="column_imgdiv" style="background-color:#E39D91"></view>
         <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
         <view class="column_jgdiv">
@@ -280,7 +280,7 @@
         </view>
       </view>
 
-      <view class="column_div" style="margin-left:10rpx">
+      <view class="column_div" style="margin-left:10rpx" bindtap="productjd">
         <view class="column_imgdiv" style="background-color:#F3C041"></view>
         <view class="column_nrdiv">鲜生说 帝王蟹2.4~3.6斤/只 中秋海鲜礼盒装 大螃蟹鲜活熟冻蟹类生鲜 智利海鲜水产 帝王蟹礼盒装3.6斤</view>
         <view class="column_jgdiv">
