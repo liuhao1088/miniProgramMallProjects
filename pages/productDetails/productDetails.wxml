@@ -144,8 +144,7 @@
 
 </view>
 
-<van-popup show="{{ specification }}" closeable position="bottom" close-icon="close"
-  bind:close="specificationClose">
+<van-popup show="{{ specification }}" closeable position="bottom" close-icon="close" bind:close="specificationClose">
 
   <view class="specification_img_div">
     <view class="specification_img"></view>
@@ -175,7 +174,7 @@
   <view class="specification_num_div">
     <view class="specification_num_title">
       <view class="num_title">购买数量</view>
-      <view class="num">剩余356件</view>
+      <view class="specification_num">剩余356件</view>
     </view>
     <view class="specification_stepper">
       <van-stepper value="{{ num }}" integer input-width="40px" button-size="40px" bind:change="onStepper" />
@@ -184,9 +183,11 @@
 
   <view class="specification_but">
     <view class="but_div">
-      <van-button type="primary" block round color="#FE4343" size="small" custom-style="font-weight: 600;">下一步</van-button>
+      <van-button type="primary" block round color="#FE4343" size="small" custom-style="font-weight: 600;">下一步
+      </van-button>
+
     </view>
-    
+
   </view>
 
 
@@ -215,6 +216,6 @@
     <van-goods-action-icon icon="chat-o" icon-class="icon_color" text="客服" />
     <van-goods-action-icon icon="cart-o" text="购物车" dot bind:click="shopCart" />
     <van-goods-action-button text="加入购物车" type="warning" />
-    <van-goods-action-button text="立即购买" />
+    <van-goods-action-button text="立即购买" bind:click="specificationPopup" />
   </van-goods-action>
 </view>

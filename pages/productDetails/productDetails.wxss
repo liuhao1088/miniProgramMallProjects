@@ -394,7 +394,7 @@ view .van-popup {
   float: left;
 }
 
-.num{
+.specification_num{
   width: 100%;
   float: left;
   line-height: 30rpx;
